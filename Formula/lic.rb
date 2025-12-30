@@ -10,7 +10,7 @@ class Lic < Formula
   def install
     python = Formula["python@3.12"].opt_bin/"python3.12"
 
-    system python, "-m", "pip", "install",
+    system python, "-m", "pip3", "install",
            "--upgrade",
            "--prefix=#{libexec}",
            "."
