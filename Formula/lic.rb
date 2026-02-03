@@ -1,8 +1,8 @@
 class Lic < Formula
   desc "Minimal interactive license generator"
   homepage "https://github.com/kushvinth/lic"
-  url "https://github.com/kushvinth/lic/archive/refs/tags/v1.1.2.tar.gz" 
-  sha256 "5fe078e0180ef1900ddd86dd4bb4543b51dff4b66e25593be82a612a3f2bd8d9"
+  url "https://github.com/kushvinth/lic/archive/refs/tags/v0.1.2.tar.gz"
+  sha256 "25e533a6f1db07f8bf39ed46c28e22c0eec6503da4869daa089228c0540a05a1"
   license "MIT"
 
   depends_on "python@3.12"
